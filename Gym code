@@ -319,7 +319,7 @@ class Gym():
     @staticmethod
     def bmi(weight,height):
         bmi_cal=weight/(height**2)
-        return bmi_cal
+        return bmi_cald
             
 obj=Gym()       
     
