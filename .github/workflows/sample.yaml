@@ -3,7 +3,7 @@ name : Demo Worflow ## Name of the Workflow
 on: [push] 
 jobs:
     run-shell-command:
-        runs-on: ubuntu_latest
+        runs-on: ubuntu-latest
         steps:
             - name: Run a Shell Command
               run: echo "Hello World !!"
